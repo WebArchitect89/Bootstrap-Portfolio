@@ -1,3 +1,36 @@
 body{
     background-color: rgb(235, 241, 221);
 }
+/* Header styling*/
+ .jumbotron{
+    height: 800px;
+    margin-top: 0px;
+    background-image: url(../images/hero-image.png);
+    background-size: 100% 800px;
+   
+display: grid;
+grid-template-rows: 1fr 1fr 1fr ;
+grid-template-areas: "display-4 nav"
+                                   ;
+ }
+
+ .nav{
+    grid-area: "nav";
+
+}
+
+.nav-link{
+    color: white;
+    font-size: larger;
+    }
+
+.display-4{
+    grid-area: display-4;
+    margin-top: 0%;
+    align-self: flex-start;
+}
+
+#simple{
+    grid-area: simple;
+}
+
