@@ -23,7 +23,7 @@ body {
 
 .nav-link {
     color: white;
-    font-size: larger;
+    font-size: 22px;
 }
 
 .button:hover {
@@ -54,6 +54,7 @@ font-size: 38px;
     grid-area: display-4;
     margin-top: 0%;
     align-self: flex-start;
+    color: white;
 }
 
 #aboutMe{
