@@ -33,6 +33,15 @@ body {
     color: transparent;
 }
 
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(86, 209, 61, 0.24), 0 17px 50px 0 rgba(49, 253, 8, 0.767);
+    background: transparent;
+    border: 3px solid greenyellow;
+    color: transparent;
+}
+
+
+
 .cardTitleCategory{
  display: grid;
   margin-bottom: 60px;
@@ -129,4 +138,8 @@ justify-content: space-around;
 
 .btn-outline-info{
     grid-area: btn-outline-info;
+}
+
+.list-group-item{
+background-color: rgb(173, 148, 114);
 }
