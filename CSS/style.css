@@ -1,5 +1,6 @@
 body {
     background-color: rgb(106, 114, 89);
+
     
 }
 
@@ -46,8 +47,8 @@ font-size: 38px;
     align-self: flex-start;
 }
 
-#simple {
-    grid-area: simple;
+#aboutMe{
+   margin-top: 40px;
 }
 
 .cardContainer {
@@ -72,6 +73,7 @@ justify-items: center;
 
     margin-left: 15%;
     margin-bottom: 150px !important;
+    background-color: rgb(209, 186, 159);
     
 }
 
@@ -79,9 +81,18 @@ justify-items: center;
     color: purple;
 }
 
-#appOne{
-    margin-left: 0px !important;
+.card-body{
+    background-color: rgb(173, 148, 114);
 }
+.card-header{
+    background-color: rgb(230, 210, 184);
+    font-size: 24px;
+    color: rgb(127, 171, 209);
+}
+#myWork h5,p{
+    color: rgb(90, 106, 131);
+}
+
 
 .footer{
     width: 100%;
