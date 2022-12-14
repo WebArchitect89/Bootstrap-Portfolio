@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(235, 241, 221);
+    background-color: rgb(106, 114, 89);
+    
 }
 
 /* Header styling*/
@@ -64,4 +65,48 @@ justify-items: center;
     margin-left: 15%;
     margin-bottom: 150px !important;
     
+}
+
+#html{
+    color: purple;
+}
+
+#appOne{
+    margin-left: 0px !important;
+}
+
+.footer{
+    width: 100%;
+justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 100px 100px 100px 200px 1fr 100px ;
+    grid-template-areas: "contactMe btn-outline-primary btn-outline-success btn-outline-secondary btn-outline-warning       none     btn-outline-info";
+}
+
+.footer button{
+    margin-left: 10px;
+    background-color: rgb(152, 170, 112);
+}
+#contactMe {
+    grid-area: contactMe;
+}
+
+.btn-outline-primary {
+    grid-area: btn-outline-primary;
+}
+
+.btn-outline-success {
+    grid-area: btn-outline-success;
+}
+
+.btn-outline-secondary{
+    grid-area: btn-outline-secondary;
+}
+
+.btn-outline-warning{
+    grid-area: btn-outline-warning;
+}
+
+.btn-outline-info{
+    grid-area: btn-outline-info;
 }
