@@ -1,19 +1,19 @@
 # Bootstrap-Portfolio
 
 
-## The project showcases my skills of building sites with the help of Bootstrap elements.
-## Here you can also find my previous projects as well as my overall skills, some of 
-## which I already have a fair grid of and some to which I look forward to.
+### The project showcases my skills of building sites with the help of Bootstrap elements.
+### Here you can also find my previous projects as well as my overall skills, some of 
+### which I already have a fair grid of and some to which I look forward to.
 
-## Inside the project you will find some information such as:
+### Inside the project you will find some information such as:
 
-* ## My name;
-* ## About me;
-* ## Ways of you you can get in touch with me;
-* ## My Resume. 
-* ## My Social Media Channels.
+* My name;
+* About me;
+* Ways of you you can get in touch with me;
+* My Resume. 
+* My Social Media Channels.
 
-## Feel free to reach me if you need any additional info.
+### Feel free to reach me if you need any additional info.
 
 
 
