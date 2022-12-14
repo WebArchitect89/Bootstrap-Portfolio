@@ -32,6 +32,14 @@ body {
     color: transparent;
 }
 
+.cardTitleCategory{
+ display: grid;
+  margin-bottom: 60px;
+justify-content: center;
+color: bisque;
+font-size: 38px;
+}
+
 .display-4 {
     grid-area: display-4;
     margin-top: 0%;
@@ -80,6 +88,7 @@ justify-items: center;
 justify-content: space-around;
     display: grid;
     grid-template-columns: 1fr 100px 100px 100px 200px 1fr 100px ;
+    grid-template-rows: 1fr;
     grid-template-areas: "contactMe btn-outline-primary btn-outline-success btn-outline-secondary btn-outline-warning       none     btn-outline-info";
 }
 
